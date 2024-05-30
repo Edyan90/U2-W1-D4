@@ -16,13 +16,15 @@ p{
 }
 .container{
     background-color: grey;
+
     margin-top: 10em;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     align-self: center;
-    gap: 50px;
+    gap: 30px;
+
 }
 .postit{
     min-width: 300px;
@@ -43,7 +45,7 @@ p{
 }
 .lila{
     background: rgb(139,140,155);
-    background: linear-gradient(0deg, rgba(139,140,155,1) 0%, rgba(191,192,231,0.5830707282913166) 33%, rgba(191,192,231,1) 100%);
+background: linear-gradient(0deg, rgba(139,140,155,1) 0%, rgba(194,195,236,1) 43%, rgba(194,195,236,1) 100%);
     transform: rotate(-5deg);
 }
 .green{
@@ -53,5 +55,6 @@ p{
 }
 .postit:hover{
     transform: scale(1.2);
-    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.644);
+    box-shadow: 0 10px 60px rgba(0, 0, 0, 0.644);
+    z-index: 1000;
 }
